@@ -8,8 +8,8 @@ form = pd.read_excel('feedback_form.xlsx')
 
 
 # The mail addresses and  password
-sender_address ="sk27808@gmail.com"
-sender_pass ="7789004313"
+sender_address ="YOUR_MAILID"
+sender_pass ="YOUR_PASSWORD"
 
 # list of reciver email_id to the mail
 li = form['Email'].to_list()
